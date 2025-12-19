@@ -68,10 +68,10 @@ docker run -d -p 5566:5566 --name go-wxpush0 go-wxpush:v2 \
 ### 🐳 Docker 一键部署
 ```
 # 参数格式与终端启动保持一致, 替换成实际值即可
-docker run -it -d -p 3322:3322 --init --name go-wxpush3 hezhizheng/go-wxpush:v3 \
--port "3322" \
--title "测试标题3322" \
--content "测试内容3322" \
+docker run -it -d -p 5566:5566 --init --name go-wxpush3 hezhizheng/go-wxpush:v3 \
+-port "5566" \
+-title "测试标题5566" \
+-content "测试内容5566" \
 -appid "xxx" \
 -secret "xxx" \
 -userid "xxx-k08" \
